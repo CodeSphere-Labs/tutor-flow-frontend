@@ -1,0 +1,49 @@
+{
+  "name": "tutor-flow-frontend",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint \"src/**/*.{js,mjs,cjs,ts,mts,jsx,tsx}\" --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\" ",
+    "openapi-ts": "openapi-ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@argon-router/core": "^0.6.3",
+    "@argon-router/react": "^0.6.3",
+    "@effector-reform/core": "^0.16.0",
+    "@effector-reform/react": "^0.16.0",
+    "@farfetched/core": "^0.13.1",
+    "@hey-api/client-fetch": "^0.10.0",
+    "@mantine/core": "^7.17.7",
+    "@mantine/dates": "^7.17.7",
+    "@mantine/form": "^7.17.7",
+    "@mantine/hooks": "^7.17.7",
+    "@mantine/modals": "^7.17.7",
+    "@mantine/notifications": "^7.17.7",
+    "dayjs": "^1.11.13",
+    "effector": "^23.3.0",
+    "effector-react": "^23.3.0",
+    "history": "^5.3.0",
+    "ofetch": "^1.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.67.1",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@zeroqs/eslint": "^1.2.6",
+    "@zeroqs/prettier": "^2.0.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  }
+}
